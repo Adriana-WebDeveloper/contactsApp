@@ -1,0 +1,60 @@
+input[type=text], select {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 10%;
+    background-color: #6f36b9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #8c76db;
+}
+  
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.logout_button{
+    width: 5%;
+    background-color: #d244ee;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table, td, th{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 10px 30px;
+}
+
+th{
+    text-transform: uppercase;
+    background-color:#8c76db;
+}
+
+table{
+    margin-top: 1em;
+}
